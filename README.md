@@ -126,7 +126,7 @@ pip install torchvision=0.9.1
 Create `.env` file using `.env.example` template.
 
 
-SMTP_USER=your_email@gmail.com
+SMTP_USER=your_email@gmail.com \n
 SMTP_PASS=your_16_digit_app_password
 
 TWILIO_SID=ACxxxxxxxxxxxxxxxxxxxxxxxx      # For setting up SMS alerts
