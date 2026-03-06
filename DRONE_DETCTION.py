@@ -289,7 +289,7 @@ class GUI:
         from PIL import Image, ImageTk
         app = tk.Tk()
         app.geometry("1920x1080")
-        app.title("JG DRONE DETECTION SYSTEM")
+        app.title("IAH DRONE DETECTION SYSTEM")
         app.configure() # Set plain white background
         # Load and center image
         img = Image.open("bg.png")
@@ -298,7 +298,7 @@ class GUI:
         panel = tk.Label(app, image=self.imgtk, bg="white")
         panel.place(relx=0.5, rely=0.5, anchor="center") # Center the image
         # Top headlines - centered, bold, underlined
-        headline1 = tk.Label(app, text="JG DRONE DETECTION SYSTEM",
+        headline1 = tk.Label(app, text="IAH DRONE DETECTION SYSTEM",
                          font=("Arial Black", 30, "bold", "underline"),
                          bg="white", fg="red")
         headline1.place(relx=0.5, rely=0.05, anchor="n")
@@ -338,3 +338,4 @@ class GUI:
 if __name__ == "__main__":
     gui=GUI()
     gui.run()
+
