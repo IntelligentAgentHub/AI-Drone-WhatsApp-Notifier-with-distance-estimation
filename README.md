@@ -123,10 +123,9 @@ pip install torchvision=0.9.1
 
 ## 🔐 Environment Setup
 
-Create `.env` file using `.env.example` template.
+Modify your parameters in the .env file
 
-
-SMTP_USER=your_email@gmail.com
+SMTP_USER=your_email@gmail.com                    ### Would require Google App passwords to use SMTP functions
 
 SMTP_PASS=your_16_digit_app_password
 
