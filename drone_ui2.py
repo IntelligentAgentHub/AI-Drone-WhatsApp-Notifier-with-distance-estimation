@@ -137,10 +137,8 @@ class GUI:
         print(hour)
         print(minute)
         # Send the image to the group
-        #GrNyQnFxBpzB8pJb2hbOQ3
         pywhatkit.sendwhats_image(grp_id, image_path, "Drone Spotted At " + str(datetime.now().strftime('%H:%M:%S')),
                                   hour, minute,loc=loc)
-        # pywhatkit.sendwhatmsg_to_group("GrNyQnFxBpzB8pJb2hbOQ3", "hi hello", hour, minute)
         print("Image sent successfully!")
     def compute_destination(lat_deg, lon_deg, distance_m, bearing_deg):
         R = 6371000 # Earth radius in meters
@@ -337,4 +335,5 @@ class GUI:
         app.mainloop()
 if __name__ == "__main__":
     gui=GUI()
+
     gui.run()
